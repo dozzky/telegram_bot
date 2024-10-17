@@ -9,9 +9,9 @@ from aiogram.fsm.state import State, StatesGroup
 # Импорт библиотек для модели
 from diffusers import DiffusionPipeline, EulerDiscreteScheduler
 import torch
-from transformers import TorchAoConfig
-from transformers import LlamaForCausalLM
-from tokenizer import Tokenizer
+#from transformers import TorchAoConfig
+#from transformers import LlamaForCausalLM
+#from tokenizer import Tokenizer
 # Импорты остальных библиотек
 import asyncio
 import logging
@@ -108,9 +108,9 @@ async def any_message(msg: types.Message):
     await msg.answer("Стремление к промпту: "+ p)
 
 # Языковая модель
-@dp.message()
-async def echo(message: types.Message):
-    await message.answer(f"Вы написали: {message.text}")
+#@dp.message()
+#async def echo(message: types.Message):
+#    await message.answer(f"Вы написали: {message.text}")
 
 # Основной цикл считывания сообщений/команд
 async def main() -> None:
