@@ -1,3 +1,6 @@
+[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](https://github.com/dozzky/telegram_bot/blob/main/ReadMe.md)
+
+
 ## Telegram bot template (poorly written) for generating images
 
 The aiogram library is used for the bot and diffusers with models from huggingface (You will need to download them locally - the first time you run from_pretrained, the download should happen automatically).
