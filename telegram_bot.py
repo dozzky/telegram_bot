@@ -96,16 +96,11 @@ async def any_message(msg: types.Message):
 @dp.message(Command("params"))
 async def any_message(msg: types.Message):
     await msg.reply("--------Параметры--------")
-    p = str(num_inference_steps)
-    await msg.answer("Шаги: "+ p)
-    p = str(negative_prompt)
-    await msg.answer("Негативный промпт: "+ p)
-    p = str(height)
-    await msg.answer("Высота изображения: "+ p)
-    p = str(width)
-    await msg.answer("Ширина изображения: "+ p)
-    p = str(guidance_scale)
-    await msg.answer("Стремление к промпту: "+ p)
+    await msg.answer("Шаги: "+ str(num_inference_steps))
+    await msg.answer("Негативный промпт: "+ str(negative_prompt))
+    await msg.answer("Высота изображения: "+ str(height))
+    await msg.answer("Ширина изображения: "+ str(width))
+    await msg.answer("Стремление к промпту: "+ str(guidance_scale))
 
 # Языковая модель
 #@dp.message()
