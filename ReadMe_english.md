@@ -1,4 +1,4 @@
-[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](https://github.com/dozzky/telegram_bot/blob/main/ReadMe.md)
+Change language to: [![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](https://github.com/dozzky/telegram_bot/blob/main/ReadMe.md)
 
 
 ## Telegram bot template (poorly written) for generating images
