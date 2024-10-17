@@ -1,3 +1,4 @@
+Поменять язык на: 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/dozzky/telegram_bot/blob/main/ReadMe_english.md)
 
 ## Шаблон (написанный на коленке) телеграм бота для генерации изображений
