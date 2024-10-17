@@ -1,0 +1,6 @@
+asyncio
+logging
+diffusers
+torch
+aiogram
+transformers
